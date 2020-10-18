@@ -95,7 +95,7 @@ class _ScreenColorState extends State<ScreenColor> {
   }
 
   playMusic() async {
-    if(mode_on) await player.play("https://www.mboxdrive.com/song.mp3");
+    if(mode_on) await player.play("https://www.mboxdrive.com/test_song_rick_astley.mp3");
     else player.stop();
   }
 
